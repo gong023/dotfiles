@@ -1,4 +1,6 @@
 #!/bin/sh
+git submodule update --init --recursive
+
 cd $(dirname $0)
 for dotfile in .?*
 do
