@@ -12,10 +12,9 @@ source $ZSH/oh-my-zsh.sh
 
 setopt auto_pushd
 setopt pushd_ignore_dups
-function chpwd() { ls -v -F -G }
+function chpwd() { ls }
 setopt auto_pushd
 setopt pushd_ignore_dups
-function chpwd() { ls -v -F --color=auto }
 autoload -U compinit
 compinit -u
 setopt autopushd
@@ -47,7 +46,7 @@ function google() {
 
 alias vi="vim"
 alias ls='ls -v -F -G'
-alias ll='ls -l'
+alias ll='ls -la'
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"

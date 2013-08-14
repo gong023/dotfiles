@@ -2,13 +2,13 @@ imap nn <Esc>
 
 nmap ,ee :e ++enc=euc-jp<CR>
 nmap ,uu :e ++enc=utf-8<CR>
-nmap aw 10w
-nmap ae 10e
-nmap ab 10b
-nmap ah 4h
-nmap al 4l
-nmap aj 3j
-nmap ak 3k
+nmap aw 8w
+nmap ae 8e
+nmap ab 8b
+nmap ah 5h
+nmap al 5l
+nmap aj 5j
+nmap ak 5k
 "gmを上書き
 nmap <expr> gm (virtcol('$')/2).'\|'
 nmap <C-e> <End>
@@ -17,8 +17,8 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 nmap <F1> :only<CR>:q<CR>
 nmap asdf :se paste<CR>
 nmap fdsa :se nopaste<CR>
-nmap aasdf :se nu<CR>
-nmap ffdsa :se nonu<CR>
+nmap qqwer :se nu<CR>
+nmap rrewq :se nonu<CR>
 nmap qwer :se nowrap<CR>
 nmap rewq :se wrap<CR>
 vnoremap <C-e> <End>
