@@ -17,8 +17,8 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 nmap <F1> :only<CR>:q<CR>
 nmap asdf :se paste<CR>
 nmap fdsa :se nopaste<CR>
-nmap lkjh :se nu<CR>
-nmap hjkl :se nonu<CR>
+nmap aasdf :se nu<CR>
+nmap ffdsa :se nonu<CR>
 nmap qwer :se nowrap<CR>
 nmap rewq :se wrap<CR>
 vnoremap <C-e> <End>

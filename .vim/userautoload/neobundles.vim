@@ -23,7 +23,7 @@ NeoBundle 'git://github.com/joonty/vdebug.git'
 NeoBundle 'git://github.com/kana/vim-operator-user.git'
 NeoBundle 'git://github.com/kana/vim-operator-replace.git'
 NeoBundle 'git://github.com/kchmck/vim-coffee-script.git'
-NeoBundle 'git://igthub.com:nathanaelkane/vim-indent-guides.git'
+NeoBundle 'git://github.com:nathanaelkane/vim-indent-guides.git'
 
 "colorscheme
 NeoBundle 'ujihisa/unite-colorscheme'
