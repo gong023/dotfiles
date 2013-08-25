@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-ZSH_THEME="gallois"
+ZSH_THEME="apple"
 #ZSH_THEME="random"
 
 plugins=(git ruby gem mysql)
@@ -55,4 +55,5 @@ alias lv="lv -c -T8192"
 alias vimrc="vi $HOME/.vimrc"
 alias zshrc="vi $HOME/.zshrc"
 alias zzz="source $HOME/.zshrc"
-#alias tmux="tmux -2 -U"
+alias tmux="tmux -2"
+alias rmswp="find . -name '*.swp' -ok rm {} \; -print"
