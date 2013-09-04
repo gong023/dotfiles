@@ -44,6 +44,18 @@ function google() {
   w3m http://www.google.co.jp/$opt
 }
 
+man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;31m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+        man "$@"
+}
+
 alias vi="vim"
 alias ls='ls -v -F -G'
 alias ll='ls -la'
@@ -57,3 +69,6 @@ alias zshrc="vi $HOME/.zshrc"
 alias zzz="source $HOME/.zshrc"
 alias tmux="tmux -2"
 alias rmswp="find . -name '*.swp' -ok rm {} \; -print"
+export MANPAGER='less -R'
+
+[ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
