@@ -20,7 +20,7 @@ let g:neocomplcache_enable_camel_case_completion = 1
 inoremap <expr><C-n>  pumvisible() ? "\<C-n>" : "\<C-x>\<C-u>\<C-p>"
 "inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 " decision with <Enter>
-inoremap <expr><CR>  pumvisible() ? neocomplcache#close_popup() : "<CR>"
+" inoremap <expr><CR>  pumvisible() ? neocomplcache#close_popup() : "<CR>"
 
 let g:neocomplcache_snippets_dir = "~/.vim/snippets"
 " Define dictionary.

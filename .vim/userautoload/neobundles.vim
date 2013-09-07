@@ -21,9 +21,11 @@ NeoBundle 'git://github.com/joonty/vdebug.git'
 NeoBundle 'git://github.com/kana/vim-operator-user.git'
 NeoBundle 'git://github.com/kana/vim-operator-replace.git'
 NeoBundle 'git://github.com/kchmck/vim-coffee-script.git'
-NeoBundle 'git://github.com:nathanaelkane/vim-indent-guides.git'
+NeoBundle 'git://github.com/nathanaelkane/vim-indent-guides.git'
 NeoBundle 'alpaca-tc/alpaca_powertabline'
 NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
+NeoBundle 'git://github.com/Keithbsmiley/rspec.vim.git'
+NeoBundle 'git://github.com/tpope/vim-endwise.git'
 
 "colorscheme
 NeoBundle 'ujihisa/unite-colorscheme'
