@@ -3,12 +3,10 @@ ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-ZSH_THEME="apple"
-#ZSH_THEME="random"
-
 plugins=(git ruby gem mysql)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.nvm/nvm.sh
 
 setopt auto_pushd
 setopt pushd_ignore_dups
