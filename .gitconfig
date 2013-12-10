@@ -3,7 +3,7 @@
     name = gong023
 [core]
     editor = vim
-    excludesfile = $HOME/.gitignore
+    excludesfile = ~/.gitignore
     pager = less -FRSX
 [push]
     default = tracking

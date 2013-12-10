@@ -72,3 +72,4 @@ alias rmswp="find . -name '*.swp' -ok rm {} \; -print"
 export MANPAGER='less -R'
 
 [ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
