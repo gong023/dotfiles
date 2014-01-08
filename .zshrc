@@ -5,10 +5,9 @@ eval "$(rbenv init -)"
 
 plugins=(git ruby gem mysql)
 
-source $ZSH/oh-my-zsh.sh
+#ZSH_THEME="arrow"
+#source $ZSH/oh-my-zsh.sh
 source $HOME/.nvm/nvm.sh
-
-ZSH_THEME="apple"
 
 setopt auto_pushd
 setopt pushd_ignore_dups
