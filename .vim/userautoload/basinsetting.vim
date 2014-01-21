@@ -8,6 +8,7 @@ au BufNewFile,BufRead *.inc set nowrap tabstop=2 shiftwidth=2 softtabstop=2
 au BufNewFile,BufRead *.rb set nowrap tabstop=2 shiftwidth=2 softtabstop=2
 au BufNewFile,BufRead *.html set nowrap tabstop=2 shiftwidth=2 softtabstop=2
 au BufNewFile,BufRead Rakefile set nowrap tabstop=2 shiftwidth=2 softtabstop=2
+au BufReadPost,BufNewFile *_spec.rb set syntax=rspec
 set ts=4 sts=4 sw=4 noet
 set shiftwidth=4
 set softtabstop=4
