@@ -2,5 +2,7 @@
 .vim/.netrwhist
 .DS_Store
 .idea/
-.swp
-.swo
+*.swp
+*.swo
+*.iml
+tags.lock

@@ -14,7 +14,7 @@ nmap <expr> gm (virtcol('$')/2).'\|'
 nmap <C-e> <End>
 nmap <C-a> <Home>
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
-nmap <F1> :only<CR>:q<CR>
+nmap <F2> :only<CR>:q<CR>
 nmap asdf :se paste<CR>
 nmap fdsa :se nopaste<CR>
 nmap qqwer :se nu<CR>
