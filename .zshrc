@@ -1,7 +1,8 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$HOME/.phpenv/bin:$PATH"
 eval "$(rbenv init -)"
+eval "$(phpenv init -)"
 
 plugins=(git ruby gem mysql)
 
