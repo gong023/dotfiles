@@ -27,8 +27,7 @@ NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
 NeoBundle 'git://github.com/Keithbsmiley/rspec.vim.git'
 NeoBundle 'git://github.com/tpope/vim-endwise.git'
 NeoBundle 'git://github.com/digitaltoad/vim-jade.git'
-NeoBundle 'git://github.com/leafgarland/typescript-vim.git'
-NeoBundle 'git://github.com/vim-scripts/newspaper.vim.git'
+NeoBundle 'git://github.com:leafgarland/typescript-vim.git'
 "NeoBundle 'soramugi/auto-ctags.vim'
 
 "colorscheme
