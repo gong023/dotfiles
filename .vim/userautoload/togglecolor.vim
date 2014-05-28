@@ -1,16 +1,16 @@
 function! ToggleDarkAndLightScheme()
     if g:colors_name == 'jellybeans'
-        colorscheme newspaper
+        echo 'set newspaper'
+"        hi IndentGuidesOdd  ctermbg=white
+"        hi IndentGuidesEven  ctermbg=lightgrey
         set background=light
-        hi IndentGuidesOdd  ctermbg=white
-        hi IndentGuidesEven  ctermbg=lightgrey
-        g:colors_name = 'newspaper'
+        colorscheme newspaper
     else
-        colorscheme jellybeans
+        echo 'set jellybeans'
+"        hi IndentGuidesOdd  ctermbg=black
+"        hi IndentGuidesEven  ctermbg=darkgrey
         set background=dark
-        hi IndentGuidesOdd  ctermbg=black
-        hi IndentGuidesEven  ctermbg=darkgrey
-        g:colors_name = 'jellybeans'
+        colorscheme jellybeans
     endif
 endfunction
 command! ToggleC call ToggleDarkAndLightScheme()
