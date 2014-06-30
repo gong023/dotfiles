@@ -67,6 +67,8 @@ alias zshrc="vi $HOME/.zshrc"
 alias zzz="source $HOME/.zshrc"
 alias tmux="tmux -2"
 alias rmswp="find . -name '*.swp' -ok rm {} \; -print"
+alias p='cd $(ghq list -p | peco)'
+alias hhh='eval $(history | peco | sed -e "s/^ *[0-9]*//")'
 export MANPAGER='less -R'
 
 [ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
