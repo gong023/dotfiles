@@ -46,3 +46,5 @@
     # grep関連
     gr = grep
     gn = grep -n
+[ghq]
+    root = ~/Dropbox/program/ghq

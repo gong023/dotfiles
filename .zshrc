@@ -2,6 +2,8 @@
 ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
 
 plugins=(git ruby gem mysql)
 
@@ -11,12 +13,9 @@ source $HOME/.nvm/nvm.sh
 
 setopt auto_pushd
 setopt pushd_ignore_dups
-function chpwd() { ls }
-setopt auto_pushd
 setopt pushd_ignore_dups
 autoload -U compinit
 compinit -u
-setopt autopushd
 setopt pushd_ignore_dups
 setopt auto_cd
 setopt list_packed
