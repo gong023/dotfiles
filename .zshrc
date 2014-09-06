@@ -69,6 +69,7 @@ alias tmux="tmux -2"
 alias rmswp="find . -name '*.swp' -ok rm {} \; -print"
 alias p='cd $(ghq list -p | peco)'
 alias hhh='eval $(history | peco | sed -e "s/^ *[0-9]*//")'
+alias gco='git checkout $(git branch | peco)'
 export MANPAGER='less -R'
 
 [ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
