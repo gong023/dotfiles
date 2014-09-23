@@ -12,6 +12,7 @@ runtime! userautoload/*.vim
 
 filetype plugin on
 filetype indent on
+au BufNewFile,BufRead *.rs set filetype=rust
 
 set t_Co=256
 colorscheme jellybeans
