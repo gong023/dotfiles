@@ -2,8 +2,8 @@
 ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GOPATH/bin
+export GOROOT=$HOME/.go
+export PATH=$PATH:$GOROOT/bin
 
 plugins=(git ruby gem mysql)
 
