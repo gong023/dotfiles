@@ -24,5 +24,5 @@ set list
 set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
 set backspace=indent,eol,start
 set timeout timeoutlen=500 ttimeoutlen=100
-"set cursorline
-"highlight CursorLine term=reverse cterm=reverse
+
+set runtimepath+=$GOROOT/misc/vim
