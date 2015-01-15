@@ -21,13 +21,14 @@ nmap qqwer :se nu<CR>
 nmap rrewq :se nonu<CR>
 nmap qwer :se nowrap<CR>
 nmap rewq :se wrap<CR>
+nmap ; :
+nmap Y y$
 vnoremap <C-e> <End>
 vnoremap <C-a> <Home>
 inoremap <C-e> <End>
 inoremap <C-a> <Home>
 inoremap , ,<Space>
 
-nmap ; :
 " カレントディレクトリの移動
 command! -nargs=? -complete=dir -bang CD  call s:ChangeCurrentDir('<args>',  '<bang>')
 function! s:ChangeCurrentDir(directory,  bang)

@@ -2,6 +2,8 @@
 ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export PATH="$HOME/.phpenv/bin:$PATH"
+eval "$(phpenv init -)"
 export GOROOT=$HOME/.go
 export PATH=$PATH:$GOROOT/bin
 
@@ -9,7 +11,7 @@ plugins=(git ruby gem mysql)
 
 #ZSH_THEME="arrow"
 #source $ZSH/oh-my-zsh.sh
-source $HOME/.nvm/nvm.sh
+#source $HOME/.nvm/nvm.sh
 
 setopt auto_pushd
 setopt pushd_ignore_dups
@@ -73,4 +75,4 @@ alias gco='git checkout $(git branch | peco)'
 export MANPAGER='less -R'
 
 [ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
+#[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh

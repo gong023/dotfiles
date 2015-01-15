@@ -24,5 +24,5 @@ set list
 set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
 set backspace=indent,eol,start
 set timeout timeoutlen=500 ttimeoutlen=100
-
+set display=lastline
 set runtimepath+=$GOROOT/misc/vim
