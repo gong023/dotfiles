@@ -3,7 +3,8 @@ ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.phpenv/bin:$PATH"
-eval "$(phpenv init -)"
+#eval "$(phpenv init -)"
+eval "$(hub alias -s)"
 export GOROOT=$HOME/.go
 export PATH=$PATH:$GOROOT/bin
 
