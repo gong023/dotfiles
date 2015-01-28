@@ -1,2 +1,9 @@
 inoremap , ,<Space>
 nmap ; :
+nmap aw 5w
+nmap ae 5e
+nmap ab 5b
+nmap ah 6h
+nmap al 6l
+nmap aj 6j
+nmap ak 6k
