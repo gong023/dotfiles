@@ -27,6 +27,10 @@ vnoremap <C-e> <End>
 vnoremap <C-a> <Home>
 inoremap <C-e> <End>
 inoremap <C-a> <Home>
+inoremap <C-f> <Right>
+inoremap <C-b> <Left>
+inoremap <C-n> <Down>
+inoremap <C-p> <Up>
 inoremap , ,<Space>
 
 " カレントディレクトリの移動
