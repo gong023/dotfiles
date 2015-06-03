@@ -57,6 +57,10 @@ man() {
         man "$@"
 }
 
+function td() {
+    todo done $(todo list | peco |awk -F " " '{print $3}' | sed s/:$//g)
+}
+
 alias vi="vim"
 alias ls='ls -v -F -G'
 alias ll='ls -la'
@@ -74,6 +78,8 @@ alias p='cd $(ghq list -p | peco)'
 alias hhh='eval $(history | peco | sed -e "s/^ *[0-9]*//")'
 alias gco='git checkout $(git branch | peco)'
 export MANPAGER='less -R'
+alias s="ssh"
+alias m="mosh"
 
 [ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
 #[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
