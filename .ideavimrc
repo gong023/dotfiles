@@ -7,3 +7,7 @@ nmap ah 6h
 nmap al 6l
 nmap aj 6j
 nmap ak 6k
+vnoremap <C-e> <End>
+vnoremap <C-a> <Home>
+inoremap <C-e> <End>
+inoremap <C-a> <Home>
