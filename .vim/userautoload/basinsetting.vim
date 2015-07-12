@@ -26,3 +26,6 @@ set backspace=indent,eol,start
 set timeout timeoutlen=500 ttimeoutlen=100
 set display=lastline
 set runtimepath+=$GOROOT/misc/vim
+
+au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
+autocmd FileType coffee    setlocal sw=2 sts=2 ts=2 et
