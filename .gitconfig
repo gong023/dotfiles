@@ -43,4 +43,4 @@
     gr = grep
     gn = grep -n
 [ghq]
-    root = ~/Dropbox/program/ghq
+    root = ~/Dropbox/program/my-devenv/ghq/
