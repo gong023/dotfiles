@@ -1,6 +1,6 @@
 [user]
-    email = gon.gong.gone@gmail.com
-    name = gong023
+	email = gon.gong.gone@gmail.com
+	name = gong023
 [core]
     editor = vim
     excludesfile = ~/.gitignore

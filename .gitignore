@@ -8,3 +8,6 @@
 tags.lock
 *.racertmp
 *.vagrant/
+hoge.php
+HogeTest.php
+composer.list

@@ -29,6 +29,7 @@ NeoBundle 'git://github.com/digitaltoad/vim-jade.git'
 NeoBundle 'git://github.com/leafgarland/typescript-vim.git'
 NeoBundle 'git://github.com/wting/rust.vim.git'
 NeoBundle 'git://github.com/mattn/sonictemplate-vim/'
+NeoBundle 'fatih/vim-go'
 "NeoBundle 'soramugi/auto-ctags.vim'
 
 "colorscheme

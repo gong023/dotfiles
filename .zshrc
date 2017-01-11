@@ -1,18 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.phpenv/bin:$PATH"
-#eval "$(phpenv init -)"
-eval "$(hub alias -s)"
-export GOROOT=$HOME/.go
-export PATH=$PATH:$GOROOT/bin
-
 plugins=(git ruby gem mysql)
-
-#ZSH_THEME="arrow"
-#source $ZSH/oh-my-zsh.sh
-#source $HOME/.nvm/nvm.sh
 
 setopt auto_pushd
 setopt pushd_ignore_dups
@@ -23,27 +11,6 @@ setopt pushd_ignore_dups
 setopt auto_cd
 setopt list_packed
 setopt list_types
-
-function alc() {
-if [ $# != 0 ]; then
-    w3m "http://eow.alc.co.jp/$*/UTF-8/?ref=sa"
-else
-    w3m "http://www.alc.co.jp/"
-fi
-}
-
-function google() {
-  local str opt
-  if [ $# != 0 ]; then
-    for i in $*; do
-      str="$str+$i"
-    done
-    str=`echo $str | sed 's/^\+//'`
-    opt='search?num=50&hl=ja&lr=lang_ja'
-    opt="${opt}&q=${str}"
-  fi
-  w3m http://www.google.co.jp/$opt
-}
 
 man() {
     env \
@@ -83,3 +50,6 @@ alias m="mosh"
 
 [ -f ~/.zsh.`hostname -s` ] && source ~/.zsh.`hostname -s`
 #[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
+#ZSH_THEME="arrow"
+#source $ZSH/oh-my-zsh.sh
+
