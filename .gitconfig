@@ -35,10 +35,6 @@
     wc = whatchanged         # logに変更されたファイルも一緒に出す
     oneline = log --pretty=oneline
     ranking = shortlog -s -n --no-merges
-    # mergeの際にconflictが起きたファイルを編集
-    edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
-    # mergeの際にconflictが起きたファイルをadd
-    add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
     # grep関連
     gr = grep
     gn = grep -n
