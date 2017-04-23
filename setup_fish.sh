@@ -6,3 +6,4 @@ omf install bobthefish
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 fisher z
 fisher naoty/fish-my_peco_functions
+fisher edc/bass

@@ -1,6 +1,6 @@
 [user]
-	email = gon.gong.gone@gmail.com
-	name = gong023
+    email = gon.gong.gone@gmail.com
+    name = gong023
 [core]
     editor = vim
     excludesfile = ~/.gitignore
@@ -39,4 +39,4 @@
     gr = grep
     gn = grep -n
 [ghq]
-    root = ~/Dropbox/program/my-devenv/ghq
+    root = ~/Dropbox/program/my-devenv/ghq/src
