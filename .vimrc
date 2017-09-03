@@ -17,6 +17,9 @@ exe "set rtp+=".globpath($GOPATH, "src/github.com/nsf/gocode/vim")
 set completeopt=menu,preview
 
 set t_Co=256
-colorscheme jellybeans
+let g:solarized_termcolors=256
+syntax enable
+set background=dark
+colorscheme solarized
 
 nnoremap fv :VimFilerBufferDir<CR>
