@@ -21,7 +21,7 @@ set smartindent
 set ignorecase
 set nowrap
 set list
-set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
+set listchars=tab:\ \ ,trail:-,nbsp:%,extends:>,precedes:<
 set backspace=indent,eol,start
 set timeout timeoutlen=500 ttimeoutlen=100
 set display=lastline
