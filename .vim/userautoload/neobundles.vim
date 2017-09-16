@@ -26,6 +26,7 @@ NeoBundle 'git://github.com/wting/rust.vim.git'
 NeoBundle 'git://github.com/mattn/sonictemplate-vim/'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'mileszs/ack.vim'
+NeoBundle 'ctrlpvim/ctrlp.vim'
 
 "colorscheme
 NeoBundle 'ujihisa/unite-colorscheme'

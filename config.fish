@@ -1,4 +1,5 @@
 set -x SHELL /bin/bash
+set -x PATH /usr/local/bin $PATH
 set -g theme_title_display_path yes
 set -g theme_title_use_abbreviated_path no
 set -g theme_display_docker_machine yes
